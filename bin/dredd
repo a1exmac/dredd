@@ -53,7 +53,7 @@ function exit(exitStatus) {
       process.exit(exitStatus);
     });
   } else {
-    // Regular exit, no coverage collecting
+    // Regular exit, no coverage
     process.exit(exitStatus);
   }
 }
